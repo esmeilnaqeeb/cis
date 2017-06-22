@@ -166,7 +166,7 @@ if %sendInv% EQU 1 (goto:end)
 
 :to-csv
 @echo Writing data to csv file...
-if exist S:\0Inventory\inventory_%YEAR%-%MONTH%-%DATE%.csv goto:write-data-only
+if exist %network-share%\inventory_%YEAR%-%MONTH%-%DATE%.csv goto:write-data-only
 
 @echo School/Parish,Room-No,Computer-Name,Model,Product-Number,OS-Version,Processor,Serial-No,Asset-Tag,Architecture,RAM,Total-Disk-Space,Free-Disk-Space,Tech-Name >> %network-share%\inventory_%YEAR%-%MONTH%-%DATE%.csv
 
