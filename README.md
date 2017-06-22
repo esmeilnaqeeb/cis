@@ -45,4 +45,4 @@ You can comment out the timeouts to make the script faster. (::timeout 3)
 Enjoy!
 
 Last but not the least, link to the google sheet where you can see your inventory if you chose option 1 or 3 on the script: (Requires login to view the file)
-https://docs.google.com/a/sbtcsupport.org/spreadsheets/d/1i2epMvUFw3VZHZQuYxF_dob5JNWvxoVJ7p_SDWlcKjU/
+https://docs.google.com/a/sbtcsupport.org/spreadsheets/d/your-google-form-id-goes-here/
