@@ -23,11 +23,11 @@ Instructions on how to use this script:
 
 	Customizing the script for your use:
 
-		Edit line 18, 25 and 147 to 149:
+	Edit line 18, 25 and 147 to 149:
 
-			Line 18: 		Change it to your school/parish or prompt user (line 21)
-			Line 25:		Change it to the room you are working in, or prompt user (line 28)
-			Line 147 to 149:	Change it to your name (without spaces: Esmeil-Naqeeb), or you can use the prompt user method (line 144 to 146)
+	Line 18: 		Change it to your school/parish or prompt user (line 21)
+	Line 25:		Change it to the room you are working in, or prompt user (line 28)
+	Line 147 to 149:	Change it to your name (without spaces: Esmeil-Naqeeb), or you can use the prompt user method (line 144 to 146)
 
 The CSV file is date stamped e.g: inventory_YEAR-MONTH-DATE.csv
 
