@@ -5,9 +5,10 @@ cd /d %0\..
 @echo.
 @echo.
 @echo Collects inventory details of a computer and submits it to a google form using curl!
-@echo Version:	1.0 (06/12/2017)
+@echo Version:	1.0 (06/7/2018)
 @echo Tested OS:		Windows (7, 8, 8.1,10) HP Machines
-@echo Writen By: Esmeil Naqeeb (blog.esmeilnaqeeb.com)
+@echo Written By: Esmeil Naqeeb (blog.esmeilnaqeeb.com)
+@echo Contributions By: David Breese (dabreese00@gmail.com)
 @echo.
 @echo.
 timeout 3
