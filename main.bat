@@ -98,6 +98,7 @@ set FreeDiskSpace=%FreeDiskSpace: =%
 set getAssetTag=wmic SystemEnclosure get SMBIOSAssetTag /format:value
 for /f "tokens=2 delims==" %%a in ('%getAssetTag%') do set assetTag=%%a
 set assetTag=%assetTag: =-%
+if not defined assetTag (set assetTag=Not-Set-in-BIOS)
 if %assetTag% EQU - (set assetTag=Not-Set-in-BIOS)
 
 ::Get System Architecture:
